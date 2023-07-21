@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='div'>
+      <h2 className='heading'>Super Over League</h2>
+      <div className='images'>
+        <img src='https://assets.ccbp.in/frontend/react-js/rcb-img.png' className='img'></img>
+        <img src='https://assets.ccbp.in/frontend/react-js/csk-img.png' className='img'></img>
+      </div> 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
